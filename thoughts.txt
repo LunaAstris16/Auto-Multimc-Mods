@@ -1,0 +1,22 @@
+1.check the user inputed jason file to see what versions of mods they want and what mods
+    -possible jason formt 
+        {
+            Name: "tweakaroo",
+            Git_Link: https://github/tweakaroo
+        }
+2. Check the inputed multimc folder to see what versions of mods that the user has installed
+    -put those mods into a jason file with the version and name of mods
+        {
+            Name: "name"
+            Version: get version of file 
+        }
+3. compare the client version to the latest version avalible from the github
+    -clause
+        -if the mod is not listed in the current mod folder auto pull the latest
+4. download those repos that are needed and put them into the mods folder
+
+    Commands 
+        multifile -starting prefix
+        .update/mods.jason - runs the update sector that updates the mods
+        .create/mods.jason - wipes the mods folder and write's all of the 
+        
